@@ -1,0 +1,36 @@
+{
+  "name": "local-toolbox",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "vite": "^7.1.0",
+    "prettier": "^3.6.0",
+    "sql-formatter": "^15.6.0",
+    "yaml": "^2.8.0",
+    "crypto-js": "^4.2.0",
+    "qrcode": "^1.5.4",
+    "jsbarcode": "^3.12.1",
+    "marked": "^16.0.0",
+    "dompurify": "^3.2.0",
+    "diff": "^8.0.0",
+    "pdf-lib": "^1.17.1",
+    "jszip": "^3.10.1",
+    "pinyin-pro": "^3.27.0",
+    "opencc-js": "^1.0.5",
+    "mermaid": "^11.12.0",
+    "gifuct-js": "^2.1.2",
+    "gifenc": "^1.0.3",
+    "punycode": "^2.3.1",
+    "@asciidoctor/core": "^3.0.4",
+    "highlight.js": "^11.11.1",
+    "croner": "^9.1.0",
+    "mathjs": "^14.8.0"
+  }
+}
